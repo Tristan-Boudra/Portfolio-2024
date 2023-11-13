@@ -1,14 +1,14 @@
 const formations = [
     {
         id: 0,
-        icon: "🎓",
+        icon: "📖",
         title: "BTS SIO",
         description: "Durant ce BTS, j'ai pu apprendre à développer des sites web simple en utilisant HTML, CSS et Javascript principalement. J'ai également vu les bases de la POO",
         bac: "Bac+2",
     },
     {
         id: 1,
-        icon: "🎓",
+        icon: "📚",
         title: "Bachelor Développeur web et mobile",
         description: "Durant ce Bachelor, j'ai pu mettre en place des sites web plus avancés avec des bases de données pour que les sites deviennent dinamiques.",
         bac: "Bac+3",
