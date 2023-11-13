@@ -16,7 +16,7 @@ export default function Projects() {
             <p className="text-secondary dark:text-dark-secondary mt-5">
               {project.description}
             </p>
-            <ul className="flex flex-row gap-2 mt-5">
+            <ul className="flex flex-row flex-wrap gap-2 mt-5">
               {project.technologies.map((technology) => (
                 <li className="py-1 px-2 rounded-lg bg-background-tertiary dark:bg-dark-background-tertiary text-secondary dark:text-dark-secondary" key={technology}>
                   {technology}
