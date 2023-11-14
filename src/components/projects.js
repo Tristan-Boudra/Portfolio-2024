@@ -6,7 +6,7 @@ export default function Projects() {
       <h1 className="text-4xl lg:text-6xl font-bold pt-20 text-primary dark:text-dark-primary text-center">
         Projets
       </h1>
-      <div className="flex flex-col lg:flex-row justify-center lg:items-start items-center gap-20 mt-10">
+      <div className="flex flex-col flex-wrap lg:flex-row justify-center lg:items-start items-center gap-20 mt-10">
         {projects.map((project) => (
           <a href={project.link} key={project.id} className="flex flex-col w-[300px] md:w-[400px] items-left border-2 border-border hover:border-border-hover bg-background-secondary dark:bg-dark-background-secondary dark:border-dark-border dark:hover:border-dark-border-hover rounded p-5">
             {project.icon}

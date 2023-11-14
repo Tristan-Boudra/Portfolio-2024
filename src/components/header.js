@@ -13,7 +13,7 @@ export default function Header() {
 
   return (
     <>
-      <header className="flex flex-col md:flex-row justify-end h-screen">
+      <header className="flex flex-col items-center md:flex-row justify-end h-screen">
         {isDay ? (
           <SunIcon onClick={toggleTheme} className="absolute top-5 right-10" />
         ) : (
